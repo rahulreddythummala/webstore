@@ -1,0 +1,107 @@
+p{ line-height: 2em; }
+h1, h2, h3, h4{
+    color: black;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0 0 .5em 0;
+}
+h1{ font-size: 5.0em;  padding: 20px; color: #252068;}
+h2{ font-size: 1.5em; }
+h3{font-size: 1.0em; }
+a{
+	color: black;
+	text-decoration: none;
+}
+ a{text-decoration: underline;	 }
+a:hover{color: red;}
+	a:active{ text-decoration: underline;  }
+
+body
+{
+
+    font-family: segoe UI; 
+font-size: 80%; 
+line-height: 1.2em; width: 100%;  background: white;
+}
+
+#banner
+{
+margin-left: 10px; 
+	margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 100px;
+}
+
+
+#page{ margin-left: 0px; 
+	margin-right: 0px;}
+
+#logo
+{
+	width: 100%;
+	margin-top: 10px;
+	font-family: segoe UI;
+	display: inline-block;
+}
+
+#nav
+{
+	margin-left: 10px; 
+	margin-right: 10px;
+	border-radius: 25px;
+	background: #71B3E7;
+	text-align: right;
+	 height:9%;
+	
+}
+
+#nav ul{}
+
+#nav ul li
+	{ 
+margin-left: 50px; 
+	margin-right: 50px;
+		display: inline-block;
+		height: 50px;
+	}
+#nav ul li a
+	{
+		margin: 20px;
+		
+		
+		color: white;
+		float: left;
+		font-size: 1.5em;
+	}
+			
+
+#content{
+	border-radius: 25px;
+	margin-left: 10px; 
+	margin-right: 10px;
+	background: #E7EBEB;
+	padding: 30px;
+	font-size: 1.2em;
+	clear: both;
+	color : #404040;
+
+
+#footer{
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 10px;
+
+}
+	#footer p{
+		
+		text-align: right;
+		text-transform: uppercase;
+		font-size: 80%;
+		text-color: red;
+	}
+
+}
+
+/* multiple styles seperated by a , */
+#content,
+ul li a{ box-shadow: 0px 1px 1px #999; }
